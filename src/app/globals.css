@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%;
+  background: #0b0e14;
+  color: #e6e6e6;
+}
+
+.tile {
+  @apply rounded-2xl p-5 shadow-lg hover:shadow-xl transition-all;
+  background: #121826;
+  border: 1px solid #1f2937;
+}
